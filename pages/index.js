@@ -71,36 +71,39 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-1">
-            <h2 className="text-5xl py-1 text-blue-400 font-burtons dark:text-blue-400 md:text-5xl">
+          <div className="text-center mx-auto p-10 py-1">
+            <h2 className="text-5xl ml-7 py-1 text-blue-400 font-burtons dark:text-blue-400 md:text-5xl">
               Badr Ait Hammou
             </h2>
-            <h3 className="text-2xl py-0 dark:text-white md:text-1xl">
+            <h3 className="text-2xl ml-7 py-0 dark:text-white md:text-1xl">
               Software Engineering Student.
             </h3>
-            
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-100 md:w-100 ">
+
+            <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
               <Image src={badr} layout="fill" objectFit="cover" />
             </div>
             <div className="text-5xl flex justify-center gap-16 py-5 dark:text-gray-400">
              
               <a href={mailToLink}>
-               <AiFillMail className="text-red-600 hover:text-red-400" />
+               <AiFillMail className="text-red-600 ml-7 hover:text-red-400" />
                 </a>
               <a href="https://www.linkedin.com/in/badr-ait-hammou-24357b233/"  target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin className="text-blue-500 hover:text-blue-400"/>
               </a>
+              <a href="https://www.linkedin.com/in/badr-ait-hammou-24357b233/"  target="_blank" rel="noopener noreferrer">
+
               <AiFillFacebook className="text-blue-700 hover:text-blue-500"/>
+              </a>
             </div>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-2 ml-7 leading-8 text-center text-gray-800 dark:text-gray-200">
             I am highly interested in software development and learning new technologies. I have strong skills in programming and problem-solving, and I have participated in numerous software development projects as a part of a team. 
             </p>
           </div>
         </section>
-        <section>
+        <section >
           <div>
-            <h3 className="text-4xl py-1 text-center dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-center text-gray-800 dark:text-gray-200">
+            <h3 className="text-4xl py-1 ml-7 text-center dark:text-white ">Services I offer</h3>
+            <p className="text-md py-2 ml-7 leading-8 text-center text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a software engineer and a designer,
               I have done remote work for a lot of 
               <span className="text-teal-500"> enterprises </span>
@@ -108,10 +111,10 @@ export default function Home() {
               I offer a wide range of services, including brand design and programming.
             </p>
             
-            <h3 className="text-4xl py-1 text-center dark:text-white ">Frameworks And Languages I Use</h3>
+            <h3 className="text-4xl ml-7 py-1 text-center dark:text-white ">Frameworks And Languages I Use</h3>
            
           </div>
-          <div className="lg:flex gap-6 ">
+          <div className="lg:flex gap-6 ml-7 ">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
               <Image src={csh} width={100} height={100} />
               
@@ -150,7 +153,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:flex gap-6 ">
+          <div className="lg:flex gap-6 ml-7">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
               <Image src={tailwind} width={100} height={100} />
               
@@ -193,8 +196,8 @@ export default function Home() {
         </section>
         <section className="py-10">
         <div>
-            <h3 className="text-4xl py-1 text-center dark:text-white ">Education:</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-4xl py-1 ml-7 text-center dark:text-white ">Education:</h3>
+            <p className="text-md py-2 ml-7 text-center leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I have done remote work for
               <span className="text-teal-500"> agencies </span>
@@ -224,11 +227,11 @@ export default function Home() {
              
             </div>
           <div>
-            <h3 className="text-4xl py-1 text-center dark:text-white ">Some Of My Projects:</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-4xl py-1 ml-7 text-center dark:text-white ">Some Of My Projects:</h3>
+            <p className="text-md py-2 leading-8 ml-7 text-center text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I have done remote work for
-              <span className="text-teal-500"> agencies </span>
+              <span className="text-teal-500 ml-7"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
