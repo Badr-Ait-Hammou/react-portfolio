@@ -71,21 +71,31 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center mx-auto p-10 py-1">
-            <h2 className="text-5xl  py-1 text-blue-400 font-burtons dark:text-blue-400 md:text-5xl">
-              Badr Ait Hammou
-            </h2>
-            <h3 className="text-2xl  py-0 dark:text-white md:text-1xl">
-              Software Engineering Student.
-            </h3>
+          <h2 className="text-5xl  text-center mx-auto p-10 py-2 text-blue-400 font-burtons dark:text-blue-400 md:text-5xl">
+            Badr Ait Hammou
+          </h2>
+          <h3 className="text-2xl  text-center mx-auto p-10 py-1 dark:text-white md:text-1xl">
+            Software Engineering Student.
+          </h3>
+          <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
+            <Image src={badr} layout="fill" objectFit="cover" />
+          </div>
 
-            <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
-              <Image src={badr} layout="fill" objectFit="cover" />
-            </div>
+
+          <div className="text-center mx-auto p-10 py-1">
+
+
+
+
+
+
+
+
+
             <div className="text-5xl flex justify-center gap-16 py-5 dark:text-gray-400">
              
               <a href={mailToLink}>
-               <AiFillMail className="text-red-600 ml-7 hover:text-red-400" />
+               <AiFillMail className="text-red-600  hover:text-red-400" />
                 </a>
               <a href="https://www.linkedin.com/in/badr-ait-hammou-24357b233/"  target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin className="text-blue-500 hover:text-blue-400"/>
