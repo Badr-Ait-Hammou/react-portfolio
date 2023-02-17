@@ -9,7 +9,7 @@ import {
   
 } from "react-icons/ai";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsMoonFill } from "react-icons/bs";
 
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
@@ -19,14 +19,14 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import web3 from "../public/products.png";
+import web4 from "../public/bienv.png";
+import web5 from "../public/gestiost.png";
+import web6 from "../public/nanolog.jpg";
 import badr from "../public/badrengeneering.png";
-import csharp from "../public/c-sharp.png";
+import inv from "../public/inve.jpg";
 import spring from "../public/spring.png";
-import dash from "../public/inve.jpg";
+import dash from "../public/badrbadrbadr.png";
 import angular from "../public/angular.png";
 import bootst from "../public/bootst.png";
 import csh from "../public/csh.png";
@@ -34,6 +34,9 @@ import django from "../public/django.png";
 import dotnet from "../public/dotnet.png";
 import react from "../public/react.png";
 import tailwind from "../public/tailwind.png";
+import uca from "../public/Sans titre.png";
+import emsi from "../public/Sans titre (1).png";
+import payment from "../public/payment.jpg";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   
@@ -53,10 +56,11 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-1 flex justify-between dark:text-white">
+
             <h1 className="font-burtons text-xl">Ait_Hammou</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill
+                <BsMoonFill
                   onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-2xl"
                 />
@@ -77,20 +81,12 @@ export default function Home() {
           <h3 className="text-2xl  text-center mx-auto p-10 py-1 dark:text-white md:text-1xl">
             Software Engineering Student.
           </h3>
-          <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
+          <div className=" mx-auto bg-gradient-to-b from-blue-500-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
             <Image src={badr} layout="fill" objectFit="cover" />
           </div>
 
 
           <div className="text-center mx-auto p-10 py-1">
-
-
-
-
-
-
-
-
 
             <div className="text-5xl flex justify-center gap-16 py-5 dark:text-gray-400">
              
@@ -112,7 +108,7 @@ export default function Home() {
         </section>
         <section >
           <div>
-            <h3 className="text-4xl py-1  text-center dark:text-white ">Services I offer</h3>
+            <h3 className="text-4xl py-2  text-center dark:text-white ">Services I offer</h3>
             <p className="text-md py-2  leading-8 text-center text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a software engineer and a designer,
               I have done remote work for a lot of 
@@ -121,11 +117,11 @@ export default function Home() {
               I offer a wide range of services, including brand design and programming.
             </p>
             
-            <h3 className="text-4xl  py-1 text-center dark:text-white ">Frameworks And Languages I Use</h3>
+            <h3 className="text-4xl  py-2 text-center dark:text-white ">Frameworks And Languages I Use:</h3>
            
           </div>
           <div className="lg:flex gap-6  ">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={csh} width={100} height={100} />
               
               <p className="py-2 text-blue-400 font-bold text-1xl ">
@@ -134,7 +130,7 @@ export default function Home() {
               <h4 className="py-4 text-black  dark:text-white">Desktop Applications</h4>
              
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={angular} width={100} height={100} />
              
               <p className="py-2 text-blue-400 font-bold text-1xl">
@@ -143,7 +139,7 @@ export default function Home() {
               <h4 className="py-4 text-black  dark:text-white">Consistent UI designe</h4>
              
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={dotnet} width={100} height={100} />
              
               <p className="py-2 text-blue-400 font-bold text-1xl">
@@ -152,7 +148,7 @@ export default function Home() {
               <h4 className="py-4 text-black  dark:text-white">Performant Applications </h4>
               
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={react} width={100} height={100} />
              
               <p className="py-2 text-blue-400 font-bold text-1xl">
@@ -164,7 +160,7 @@ export default function Home() {
           </div>
 
           <div className="lg:flex gap-6 ">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={tailwind} width={100} height={100} />
               
               <p className="py-2 text-blue-400 font-bold text-1xl">
@@ -173,7 +169,7 @@ export default function Home() {
               <h4 className="py-4  text-black  dark:text-white">Responsive Design</h4>
              
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={bootst} width={100} height={100} />
              
               <p className="py-2 text-blue-400 font-bold text-1xl">
@@ -182,7 +178,7 @@ export default function Home() {
               <h4 className="py-4  text-black  dark:text-white">Customizable</h4>
              
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={django} width={100} height={100} />
              
               <p className="py-2 text-blue-400 font-bold text-1xl">
@@ -191,7 +187,7 @@ export default function Home() {
               <h4 className="py-4  text-black  dark:text-white"> Scalability</h4>
               
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={spring} width={100} height={100} />
              
               <p className="py-2 text-blue-400 font-bold text-1xl">
@@ -208,104 +204,90 @@ export default function Home() {
         <div>
             <h3 className="text-4xl py-1  text-center dark:text-white ">Education:</h3>
             <p className="text-md py-2  text-center leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I have done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              Thanks to self education and those two establishment, I have a strong educational background in computer science.
             </p>
             
           </div>
 
-        <div className="text-left shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
-              <Image src={tailwind} width={100} height={100} />
+        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
+              <Image src={uca} width={100} height={100} />
               
               <p className="py-2 text-center dark:text-white">
-                
+                I obtained my bachelor s  degree in Computer Science from the <span className="text-teal-500"> FST </span> University,
+                where I gained a solid foundation in programming languages, and algorithms.
               </p>
               <h4 className="py-4  text-black  dark:text-white">Responsive Design</h4>
              
             </div>
-            <div className="text-left shadow-lg p-10 rounded-xl my-10  dark:bg-blue-950 flex-1">
-              <Image src={tailwind} width={100} height={100} />
-              
+            <div className="text-center shadow-lg  p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
+              <Image src={emsi} width={100} height={100} />
+
               <p className="py-2 text-center dark:text-white">
-                
+                I completed my engineering education at <span className="text-teal-500"> EMSI </span> School,
+                where I deepened my understanding of computer architecture,
+                operating systems, and databases.
               </p>
-              <h4 className="py-4  text-black  dark:text-white">Responsive Design</h4>
+
              
             </div>
           <div>
-            <h3 className="text-4xl py-1  text-center dark:text-white ">Some Of My Projects:</h3>
-            <p className="text-md py-2 leading-8 ml-7 text-center text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I have done remote work for
-              <span className="text-teal-500 "> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Some Of My Projects:
-            </p>
+            <p className="py-2 text-center dark:text-white" >Through both of these educational experiences,
+              I developed a strong analytical and problem-solving skills,
+              which have been essential to my success in this field.</p>
+            <h3 className="text-4xl py-6  text-center dark:text-white ">Some Of My Projects:</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
-                className="rounded-lg  "
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={dash}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
                 layout="responsive"
                 src={web4}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
                 layout="responsive"
+                src={web6}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
+                layout="responsive"
+                src={web3}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
+                layout="responsive"
+                src={payment}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+               layout="responsive"
                 src={web5}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
                 layout="responsive"
-                src={web6}
+                src={dash}
               />
             </div>
           </div>
+
+
+
+
         </section>
       </main>
     </div>
