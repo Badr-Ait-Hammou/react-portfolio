@@ -2,7 +2,7 @@ import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiOutlineGithub,
   AiFillMail,
   AiFillAlert,
   AiFillFacebook,
@@ -67,9 +67,9 @@ export default function Home() {
               </li>
               <li>
                 <a
-               //   className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="#"
+                  className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="#"
                 >
-
+                  Resume
                 </a>
               </li>
 
@@ -96,9 +96,9 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/badr-ait-hammou-24357b233/"  target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin className="text-blue-500 hover:text-blue-400"/>
               </a>
-              <a href="https://www.linkedin.com/in/badr-ait-hammou-24357b233/"  target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Badr-Ait-Hammou"  target="_blank" rel="noopener noreferrer">
 
-              <AiFillFacebook className="text-blue-700 hover:text-blue-500"/>
+              <AiOutlineGithub className="text-black hover:text-gray-500"/>
               </a>
             </div>
             <p className="text-md py-2  leading-8 text-center text-gray-800 dark:text-gray-200">
