@@ -216,7 +216,7 @@ export default function Home() {
                 I obtained my bachelor s  degree in Computer Science from the <span className="text-teal-500"> FST </span> University,
                 where I gained a solid foundation in programming languages, and algorithms.
               </p>
-              <h4 className="py-4  text-black  dark:text-white">Responsive Design</h4>
+
              
             </div>
             <div className="text-center shadow-lg  p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
