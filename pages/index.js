@@ -37,6 +37,8 @@ import tailwind from "../public/tailwind.png";
 import uca from "../public/fst.png";
 import emsi from "../public/Sans titre (1).png";
 import payment from "../public/payment.jpg";
+import logo from "../public/balog.png";
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   
@@ -67,7 +69,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="#"
+                  className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="Badr.pdf" download
                 >
                   Resume
                 </a>
