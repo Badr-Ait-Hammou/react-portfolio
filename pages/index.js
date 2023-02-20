@@ -59,17 +59,19 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 mb-1 flex justify-between dark:text-white">
 
-            <h1 className="font-burtons text-xl">Ait_Hammou</h1>
             <ul className="flex items-center">
               <li>
                 <BsMoonFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
+                    onClick={() => setDarkMode(!darkMode)}
+                    className=" cursor-pointer text-2xl "
                 />
               </li>
+            </ul>
+            <ul className="flex items-center">
+
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="cv.pdf" download
+                  className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="Ait_Hammou.pdf" download
                 >
                   Resume
                 </a>
@@ -84,7 +86,7 @@ export default function Home() {
             Software Engineering Student.
           </h3>
           <div className=" mx-auto bg-gradient-to-b from-blue-500-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
-            <Image src={badr} layout="fill" objectFit="cover" />
+            <Image src={badr} layout="fill"  objectFit="cover" />
           </div>
 
 
@@ -238,7 +240,9 @@ export default function Home() {
               which have been essential to my success in this field.</p>
             <h3 className="text-4xl py-6  text-center dark:text-white ">Some Of My Projects:</h3>
           </div>
+
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+
             <div className="basis-1/3 flex-1 ">
               <Image
                   className="rounded-lg object-cover object-fill object-center h-full w-full"
@@ -247,6 +251,7 @@ export default function Home() {
                 src={web4}
               />
             </div>
+
             <div className="basis-1/3 flex-1">
               <Image
                   className="rounded-lg object-cover object-fill object-center h-full w-full"
@@ -286,7 +291,7 @@ export default function Home() {
               />
             </div>
           </div>
-
+          <h3 className="text-4xl py-6  text-center dark:text-white ">My Recent Work:</h3>
 
 
 
