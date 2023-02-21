@@ -65,11 +65,7 @@ export default function Home() {
       <div className="bg-black text-center text-white  ">
         <Swiper
 
-            slidesPerView={1}
 
-            slidesPerView={1}
-            loop={true}
-            autoplay={{ delay: 2000 }}
 
         >
 
@@ -147,7 +143,7 @@ export default function Home() {
           <div>
             <h3 className="text-4xl py-2  text-center dark:text-white font-burtons">Services I offer</h3>
             <p className="text-md py-2  leading-8 text-center text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a software engineer and designer,
+              Since the beginning of my journey as a software engineer and a designer,
               I have done remote work for a lot of 
               <span className="text-teal-500"> enterprises </span>
               ,and collaborated with talanted people to develop performant applications.
