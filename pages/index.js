@@ -75,13 +75,13 @@ export default function Home() {
 
           <SwiperSlide><p className="text-sm">Your work is going to fill a large part of your life</p>
           </SwiperSlide>
-          <SwiperSlide><p className="text-sm"> and the only way to be truly satisfied is :</p>
+          <SwiperSlide><p className="text-sm"> and the only way to be truly satisfied is </p>
           </SwiperSlide>
           <SwiperSlide><p className="text-sm"> to do what you believe is great work</p>
           </SwiperSlide>
-          <SwiperSlide><p className="text-sm">And the only way to do great work is :</p>
+          <SwiperSlide><p className="text-sm">And the only way to do great work is </p>
           </SwiperSlide>
-          <SwiperSlide><p className="text-sm"> to love what you do :)</p>
+          <SwiperSlide><p className="text-sm"> to love what you do </p>
           </SwiperSlide>
 
         </Swiper>
