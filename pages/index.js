@@ -37,7 +37,11 @@ import tailwind from "../public/tailwind.png";
 import uca from "../public/fst.png";
 import emsi from "../public/Sans titre (1).png";
 import payment from "../public/payment.jpg";
-import logo from "../public/balog.png";
+import logo from "../public/metallic_golden_logo_on_wall_mockup.png";
+import ben from "../public/benh.png"
+import enter from "../public/ahenter.png"
+import dev from "../public/devanddes.jpg"
+import bah from "../public/bah.png"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -112,7 +116,7 @@ export default function Home() {
         </section>
         <section >
           <div>
-            <h3 className="text-4xl py-2  text-center dark:text-white ">Services I offer</h3>
+            <h3 className="text-4xl py-2  text-center dark:text-white font-burtons">Services I offer</h3>
             <p className="text-md py-2  leading-8 text-center text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a software engineer and a designer,
               I have done remote work for a lot of 
@@ -121,7 +125,7 @@ export default function Home() {
               I offer a wide range of services, including brand design and programming.
             </p>
             
-            <h3 className="text-4xl  py-2 text-center dark:text-white ">Frameworks And Languages I Use:</h3>
+            <h3 className="text-4xl  py-2 text-center dark:text-white font-burtons ">Frameworks And Languages I Use:</h3>
            
           </div>
           <div className="lg:flex gap-6  ">
@@ -206,7 +210,7 @@ export default function Home() {
         </section>
         <section className="py-10">
         <div>
-            <h3 className="text-4xl py-1  text-center dark:text-white ">Education:</h3>
+            <h3 className="text-4xl py-1  text-center dark:text-white font-burtons ">Education:</h3>
             <p className="text-md py-2  text-center leading-8 text-gray-800 dark:text-gray-200">
               Thanks to self education and those two establishment, I have a strong educational background in computer science.
             </p>
@@ -238,11 +242,11 @@ export default function Home() {
             <p className="py-2 text-center dark:text-white" >Through both of these educational experiences,
               I developed a strong analytical and problem-solving skills,
               which have been essential to my success in this field.</p>
-            <h3 className="text-4xl py-6  text-center dark:text-white ">Some Of My Projects:</h3>
+            <h3 className="text-4xl py-6  text-center dark:text-white font-burtons ">Some Of My Projects:</h3>
           </div>
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-
+            {/*
             <div className="basis-1/3 flex-1 ">
               <Image
                   className="rounded-lg object-cover object-fill object-center h-full w-full"
@@ -260,12 +264,13 @@ export default function Home() {
                 src={web6}
               />
             </div>
+            */}
             <div className="basis-1/3 flex-1">
               <Image
                   className="rounded-lg object-cover object-fill object-center h-full w-full"
 
                 layout="responsive"
-                src={web3}
+                src={web6}
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -291,8 +296,43 @@ export default function Home() {
               />
             </div>
           </div>
-          <h3 className="text-4xl py-6  text-center dark:text-white ">My Recent Work:</h3>
+          <h3 className="text-4xl py-6  text-center dark:text-white font-burtons ">My Recent Designs:</h3>
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 
+            <div className="basis-1/3 flex-1 ">
+              <Image
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
+                  layout="responsive"
+                  src={ben}
+              />
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <Image
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
+                  layout="responsive"
+                  src={bah}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
+                  layout="responsive"
+                  src={enter}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                  className="rounded-lg object-cover object-fill object-center h-full w-full"
+
+                  layout="responsive"
+                  src={dev}
+              />
+            </div>
+          </div>
 
 
         </section>
