@@ -10,17 +10,19 @@ import {
 } from "react-icons/ai";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { BsMoonFill } from "react-icons/bs";
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore,{Autoplay} from 'swiper';
+import 'swiper/css';
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/products.png";
-import web4 from "../public/bienv.png";
+import aithammoudev from "../public/aithammoudev.png";
+import benhaddouch from "../public/benhaddouch.png";
+import logocompany from "../public/logocompany.png";
+import enterprises from "../public/ahenterprises.png";
 import web5 from "../public/gestiost.png";
 import web6 from "../public/nanolog.jpg";
 import badr from "../public/badrengeneering.png";
@@ -37,15 +39,15 @@ import tailwind from "../public/tailwind.png";
 import uca from "../public/fst.png";
 import emsi from "../public/Sans titre (1).png";
 import payment from "../public/payment.jpg";
-import logo from "../public/metallic_golden_logo_on_wall_mockup.png";
+import department from "../public/department.png";
 import ben from "../public/benh.png"
 import enter from "../public/ahenter.png"
 import dev from "../public/devanddes.jpg"
 import bah from "../public/bah.png"
-
+import b from "../public/badrdevelopperanddesigner.jpg"
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  
+  SwiperCore.use([Autoplay])
     const email = 'badr.ibnbrahim@gmail.com';
     const subject = 'Portfolio Inquiry';
     const body = 'Hello Mr_Badr, I am interested in your work.';
@@ -265,6 +267,7 @@ export default function Home() {
               />
             </div>
             */}
+
             <div className="basis-1/3 flex-1">
               <Image
                   className="rounded-lg object-cover object-fill object-center h-full w-full"
@@ -299,40 +302,70 @@ export default function Home() {
           <h3 className="text-4xl py-6  text-center dark:text-white font-burtons ">My Recent Designs:</h3>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 
-            <div className="basis-1/3 flex-1 ">
+
+
+            <div className="basis-1/2 flex-1">
               <Image
                   className="rounded-lg object-cover object-fill object-center h-full w-full"
 
                   layout="responsive"
-                  src={ben}
+                  src={enterprises}
               />
             </div>
 
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/2 flex-1">
               <Image
                   className="rounded-lg object-cover object-fill object-center h-full w-full"
 
                   layout="responsive"
-                  src={bah}
+                  src={department}
               />
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                  className="rounded-lg object-cover object-fill object-center h-full w-full"
 
-                  layout="responsive"
-                  src={enter}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                  className="rounded-lg object-cover object-fill object-center h-full w-full"
-
-                  layout="responsive"
-                  src={dev}
-              />
-            </div>
           </div>
+
+           <Swiper
+
+              slidesPerView={3}
+
+              loop={true}
+              autoplay={{
+                delay:1000
+              }}
+              spaceBetween={10}
+
+          >
+            <SwiperSlide> <Image className="rounded-lg object-cover text-center" height={330} width={500}
+                src={logocompany}
+            /></SwiperSlide>
+
+            <SwiperSlide><Image className="text-center rounded-lg object-cover" height={330} width={500}
+                src={enterprises}
+            /></SwiperSlide>
+            <SwiperSlide> <Image className="text-center rounded-lg object-cover" height={330} width={500}
+                src={bah}
+            /></SwiperSlide>
+            <SwiperSlide> <Image className=" content-center rounded-lg object-cover"  height={330} width={500}
+                src={ben}
+            /></SwiperSlide>
+             <SwiperSlide> <Image className=" content-center rounded-lg object-cover"  height={330} width={500}
+                                  src={b}
+             /></SwiperSlide>
+             <SwiperSlide> <Image className=" content-center rounded-lg object-cover"  height={330} width={500}
+                                  src={aithammoudev}
+             /></SwiperSlide>
+             <SwiperSlide> <Image className=" content-center rounded-lg object-cover"  height={330} width={500}
+                                  src={benhaddouch}
+             /></SwiperSlide>
+             <SwiperSlide> <Image className="rounded-lg object-cover text-center" height={330} width={500}
+                                  src={dev}
+             /></SwiperSlide>
+             <SwiperSlide> <Image className="rounded-lg object-cover text-center" height={330} width={500}
+                                  src={department}
+             /></SwiperSlide>
+          </Swiper>
+
+
 
 
         </section>
