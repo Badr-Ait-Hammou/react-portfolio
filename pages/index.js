@@ -64,20 +64,20 @@ export default function Home() {
       </Head>
       <div className="bg-black text-center text-white  ">
         <Swiper
-
-
-
+            slidesPerView={1}
+            loop={true}
+            autoplay={{ delay: 2000 }}
         >
 
           <SwiperSlide><p className="text-sm">Your work is going to fill a large part of your life</p>
           </SwiperSlide>
-          <SwiperSlide><p className="text-sm"> and the only way to be truly satisfied is </p>
+          <SwiperSlide><p className="text-sm"> and the only way to be truly satisfied is :</p>
           </SwiperSlide>
-          <SwiperSlide><p className="text-sm"> to do what you believe is great work</p>
+          <SwiperSlide><p className="text-sm"> to do what you believe is great work,</p>
           </SwiperSlide>
-          <SwiperSlide><p className="text-sm">And the only way to do great work is </p>
+          <SwiperSlide><p className="text-sm">And the only way to do great work is :</p>
           </SwiperSlide>
-          <SwiperSlide><p className="text-sm"> to love what you do </p>
+          <SwiperSlide><p className="text-sm"> to love what you do :) </p>
           </SwiperSlide>
 
         </Swiper>
@@ -131,7 +131,7 @@ export default function Home() {
               </a>
               <a href="https://github.com/Badr-Ait-Hammou"  target="_blank" rel="noopener noreferrer">
 
-              <AiOutlineGithub className="text-black hover:text-gray-500"/>
+              <AiOutlineGithub className="text-black hover:text-gray-500 dark:text-white"/>
               </a>
             </div>
             <p className="text-md py-2  leading-8 text-center text-gray-800 dark:text-gray-200">
@@ -146,7 +146,7 @@ export default function Home() {
               Since the beginning of my journey as a software engineer and a designer,
               I have done remote work for a lot of 
               <span className="text-teal-500"> enterprises </span>
-              ,and collaborated with talanted people to develop performant applications.
+              ,and collaborated with talented people to develop performant applications.
               I offer a wide range of services, including brand design and programming.
             </p>
             
