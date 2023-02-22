@@ -100,7 +100,9 @@ export default function Home() {
 
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="Ait_Hammou.pdf" download
+              //    className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="Ait_Hammou.pdf" download
+                  className="bg-gradient-to-r from-cyan-400 text- to-blue-500 text-white px-4 py-2 border-none rounded-md ml-8" href="#"
+
                 >
                   Resume
                 </a>
