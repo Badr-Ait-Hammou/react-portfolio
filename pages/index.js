@@ -239,7 +239,7 @@ export default function Home() {
         <div>
             <h3 className="text-4xl py-1  text-center dark:text-white font-burtons ">Education:</h3>
             <p className="text-md py-2  text-center leading-8 text-gray-800 dark:text-gray-200">
-              Thanks to self education and those two establishment, I have a strong educational background in computer science.
+              Thanks to self education and these two establishments, I have a strong educational background in computer science.
             </p>
             
           </div>
