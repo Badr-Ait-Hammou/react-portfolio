@@ -1,11 +1,9 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
   AiFillLinkedin,
   AiOutlineGithub,
   AiFillMail,
-  AiFillAlert,
-  AiFillFacebook,
+
   
 } from "react-icons/ai";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
@@ -14,10 +12,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore,{Autoplay} from 'swiper';
 import 'swiper/css';
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
+
+import android2 from "../public/android2.png";
+import android5 from "../public/android5.png";
 import Image from "next/image";
 import aithammoudev from "../public/aithammoudev.png";
 import shop from "../public/benhaddouch.png";
@@ -26,7 +23,8 @@ import enterprises from "../public/ahenterprises.png";
 import web5 from "../public/gestiost.png";
 import web6 from "../public/nanolog.jpg";
 import badr from "../public/badrengeneering.png";
-import inv from "../public/inve.jpg";
+import coursera from "../public/udemy.png";
+import udemy from "../public/udemy1.png";
 import spring from "../public/spring.png";
 import dash from "../public/badrbadrbadr.png";
 import angular from "../public/angular.png";
@@ -269,8 +267,50 @@ export default function Home() {
             <p className="py-2 text-center dark:text-white" >Through both of these educational experiences,
               I developed a strong analytical and problem-solving skills,
               which have been essential to my success in this field.</p>
+
+            <div>
+              <h3 className="text-4xl py-4 mt-7  text-center dark:text-white font-burtons ">Certifications:</h3>
+              {/* <p className="text-md py-2  text-center leading-8 text-gray-800 dark:text-gray-200">
+                Thanks to self education and these two establishments, I have a strong educational background in computer science.
+              </p>
+              */}
+            </div>
+
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
+              <Image src={coursera} width={100} height={100} />
+
+              <p className="py-2 text-center dark:text-white">
+                <span className="text-teal-500 text-center"> Full stack web development with react </span><br/>
+                This certification demonstrates my proficiency in the React JavaScript library,
+                including the ability to create complex user interfaces and efficiently manage state using React s core features.
+                With this certification, I have demonstrated a mastery of React,
+                which is essential for building modern, scalable web applications.
+              </p>
+
+
+            </div>
+            <div className="text-center shadow-lg  p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
+              <Image src={udemy} width={100} height={100} />
+
+              <p className="py-2 text-center dark:text-white">
+                <span className="text-teal-500 text-center"> Spring & Hibernate for Beginners (includes Spring Boot) </span><br/>
+                <span className="text-teal-500 text-center"> Full Stack: Angular and Java Spring Boot E-Commerce Website </span><br/>
+
+                This certification demonstrates my expertise in developing web applications using the Spring Boot framework.
+                With this certification, I have demonstrated proficiency in designing and implementing RESTful web services,
+                integrating with databases, and deploying web applications to production. Spring Boot is a highly sought-after skill in the web development industry,
+                and this certification proves my proficiency in this area.
+              </p>
+
+
+            </div>
+
+
+
             <h3 className="text-4xl py-6  text-center dark:text-white font-burtons ">Some Of My Projects:</h3>
           </div>
+
+
 
 
             <div className=" text-center text-white  ">
@@ -298,6 +338,12 @@ export default function Home() {
                 <SwiperSlide> <Image className="text-center rounded-lg object-cover" height={330} width={600}
                                      src={web6}
                 /></SwiperSlide>
+                <SwiperSlide> <Image className="text-center rounded-lg  " height={330} width={600}
+                                     src={android5}
+                /></SwiperSlide>
+                <SwiperSlide> <Image className="text-center rounded-lg " height={330} width={600}
+                                     src={android2}
+                /></SwiperSlide>
 
               </Swiper>
             </div>
@@ -312,7 +358,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-3 lg:flex-row lg:flex-wrap">
 
           </div>
-<div className=" text-center text-white  ">
+          <div className=" text-center text-white  ">
            <Swiper
 
               slidesPerView={1}
