@@ -11,7 +11,8 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 i am still woking on the website but this is a full screenshot of it:
-![screencapture-aithammoubadr-me-2023-02-28-13_00_28](https://user-images.githubusercontent.com/121731124/221849169-3b9345b7-e50d-4236-90f8-1efd3d82e046.png)
+![screencapture-aithammoubadr-me-2023-02-28-13_00_28](https://user-images.githubusercontent.com/121731124/221852601-9c4751f0-ef15-4a05-bbd6-cd24ad72be9b.png)
+
 
 
 
