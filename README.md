@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`]
-as you can see i have deployed the project, so to see the demonstration all you have to do is open this link aithammoubadr.me 
+as you can see i have deployed the project, so to see the demonstration all you have to do is open this link https://aithammoubadr.me/ 
 
 ** Getting Started
 
@@ -10,6 +10,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+i am still woking on the website but this is a full screenshot of it:
+![screencapture-aithammoubadr-me-2023-02-28-13_00_28](https://user-images.githubusercontent.com/121731124/221849169-3b9345b7-e50d-4236-90f8-1efd3d82e046.png)
+
 
 
