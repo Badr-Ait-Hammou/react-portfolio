@@ -112,7 +112,7 @@ export default function Home() {
             Badr Ait Hammou
           </h2>
           <h3 className="text-2xl  text-center mx-auto p-10 py-1 dark:text-white md:text-1xl">
-            Software Engineering Student.
+            Software Engineering Student
           </h3>
           <div className=" mx-auto bg-gradient-to-b from-blue-500-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
             <Image src={badr} layout="fill"  objectFit="cover" />
