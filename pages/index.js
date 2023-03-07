@@ -41,7 +41,11 @@ import department from "../public/department.png";
 import ben from "../public/benh.png"
 import enter from "../public/ahenter.png"
 import dev from "../public/devanddes.jpg"
-import bah from "../public/bah.png"
+import bootstrapcertif from "../public/boots.png"
+import frontreact from "../public/frontreact.png"
+import fullstack from "../public/fullstackr.png"
+import servers from "../public/servers.png"
+import testfull from "../public/testfull.png"
 import b from "../public/badrdevelopperanddesigner.jpg"
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -64,6 +68,7 @@ export default function Home() {
         <Swiper
             slidesPerView={1}
             loop={true}
+
             autoplay={{ delay: 2000 }}
         >
 
@@ -276,6 +281,39 @@ export default function Home() {
               */}
             </div>
 
+            <div className=" text-center text-white  ">
+              <Swiper
+
+                  slidesPerView={1}
+
+                  loop={true}
+
+                  autoplay={{
+                    delay:2000,
+
+                  }}
+                  spaceBetween={0}
+
+              >
+                <SwiperSlide> <Image className="rounded-lg object-fill text-center " height={330} width={600}
+                                     src={testfull}
+                /></SwiperSlide>
+
+                <SwiperSlide><Image className="text-center rounded-lg object-fill " height={330} width={600}
+                                    src={frontreact}
+                /></SwiperSlide>
+                <SwiperSlide> <Image className="text-center rounded-lg object-fill" height={330} width={600}
+                                     src={bootstrapcertif}
+                /></SwiperSlide>
+                <SwiperSlide> <Image className="text-center rounded-lg object-fill" height={330} width={600}
+                                     src={servers}
+                /></SwiperSlide>
+
+
+              </Swiper>
+            </div>
+
+
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 flex-1">
               <Image src={coursera} width={100} height={100} />
 
@@ -296,7 +334,7 @@ export default function Home() {
                 <span className="text-teal-500 text-center"> Spring & Hibernate for Beginners (includes Spring Boot) </span><br/>
                 <span className="text-teal-500 text-center"> Full Stack: Angular and Java Spring Boot E-Commerce Website </span><br/>
 
-                This certification demonstrates my expertise in developing web applications using the Spring Boot framework.
+                These certifications demonstrates my expertise in developing web applications using the Spring Boot framework.
                 With this certification, I have demonstrated proficiency in designing and implementing RESTful web services,
                 integrating with databases, and deploying web applications to production. Spring Boot is a highly sought-after skill in the web development industry,
                 and this certification proves my proficiency in this area.
@@ -320,7 +358,7 @@ export default function Home() {
 
                   loop={true}
                   autoplay={{
-                    delay:1000
+                    delay:2000
                   }}
                   spaceBetween={0}
 
@@ -365,7 +403,7 @@ export default function Home() {
 
               loop={true}
               autoplay={{
-                delay:1000
+                delay:2000
               }}
               spaceBetween={0}
 
